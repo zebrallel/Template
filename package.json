@@ -1,0 +1,11 @@
+{
+  "name": "wtf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zebrallel/Template.git",
+  "author": "xuejian.xu01 <xuejian.xu01@liulishuo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.41"
+  }
+}

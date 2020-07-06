@@ -1,0 +1,7 @@
+<% if(__APP_ENV__ === 'development') { %>
+  <script src="https://cdn.llscdn.com/vendor/react@16.12.0/umd/react.development.js" onerror="__ERR_HANDLER__(event)" crossorigin></script>
+  <script src="https://cdn.llscdn.com/vendor/react-dom@16.12.0/umd/react-dom.development.js" onerror="__ERR_HANDLER__(event)" crossorigin></script>
+<% } else { %>
+  <script src="https://cdn.llscdn.com/vendor/react@16.12.0/umd/react.production.min.js" onerror="__ERR_HANDLER__(event)" crossorigin></script>
+  <script src="https://cdn.llscdn.com/vendor/react-dom@16.12.0/umd/react-dom.production.min.js" onerror="__ERR_HANDLER__(event)" crossorigin></script>
+<% } %>
