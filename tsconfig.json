@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "noImplicitReturns":true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve"
+  },
+  "files": ["./types/index.d.ts"],
+  "include": ["src", "*.ts", "*.tsx"],
+  "exclude": ["node_modules", "public", "dist"]
+}
