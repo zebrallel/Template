@@ -4,11 +4,10 @@
     "noUnusedParameters": true,
     "noUnusedLocals": true,
     "strict": true,
-    "noImplicitReturns":true,
+    "noImplicitReturns": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "jsx": "preserve"
+    "resolveJsonModule": true
   },
   "files": ["./types/index.d.ts"],
   "include": ["src", "*.ts", "*.tsx"],
