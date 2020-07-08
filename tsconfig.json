@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "noEmit": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
@@ -9,7 +13,8 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "target": "ESNext",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "jsx": "preserve"
   },
   "files": ["./types/index.d.ts"],
   "include": ["src", "*.ts", "*.tsx"],
