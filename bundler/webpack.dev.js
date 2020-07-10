@@ -36,6 +36,7 @@ module.exports = function ({ appEnv }) {
         },
         filename: 'index.html',
       }),
+      new webpack.HotModuleReplacementPlugin(),
       new webpack.DefinePlugin({
         __APP_ENV__: JSON.stringify(appEnv),
       }),
