@@ -1,1 +1,2 @@
-/// <reference types="./custom-typings.d.ts" />
+declare module '*.less'
+declare var module: any
