@@ -10,6 +10,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist_tests'),
     publicPath: '/',
   },
+  optimization: {
+    runtimeChunk: {
+      name: 'runtime'
+    }
+  },
   module: {
     rules: [
       {

@@ -19,7 +19,7 @@ module.exports = function ({ isProd }) {
   return {
     output: {
       path: resolve('dist'),
-      filename: '[name].js'
+      filename: '[name].js',
     },
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx'],
@@ -55,12 +55,6 @@ module.exports = function ({ isProd }) {
         {
           test: /\.less$/,
           use: [
-            {
-              loader: 'less-loader',
-              options: {
-                sourceMap: false,
-              },
-            },
             getStyleLoader(isProd),
             {
               loader: 'css-loader',
@@ -70,6 +64,12 @@ module.exports = function ({ isProd }) {
             },
             {
               loader: 'postcss-loader',
+              options: {
+                sourceMap: false,
+              },
+            },
+            {
+              loader: 'less-loader',
               options: {
                 sourceMap: false,
               },

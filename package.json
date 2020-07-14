@@ -47,7 +47,9 @@
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.0.8"
   },
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
   "browserslist": [
     "Android >= 4",
     "iOS >= 9"
