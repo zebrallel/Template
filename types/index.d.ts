@@ -1,1 +1,1 @@
-/// <reference types="./custom-typings" />
+/// <reference types="./custom-typings.d.ts" />

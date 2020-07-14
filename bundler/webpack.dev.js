@@ -17,6 +17,7 @@ module.exports = function ({ appEnv }) {
     },
     devServer: {
       hot: true,
+      hotOnly: true,
       overlay: true,
       quiet: true,
       inline: true,
