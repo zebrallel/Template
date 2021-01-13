@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
+import SortableTablePage from '@/pages/sortable-table';
 
 class App extends React.Component {
   render() {
-    return <div>App10</div>
+    return <SortableTablePage />;
   }
 }
 

@@ -48,7 +48,12 @@
     "webpack-merge": "^5.0.8"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "antd": "^4.10.2",
+    "array-move": "^3.0.1",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-sortable-hoc": "^1.11.0"
   },
   "browserslist": [
     "Android >= 4",

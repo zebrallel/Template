@@ -21,7 +21,11 @@ module.exports = function ({ appEnv }) {
       filename: `js/[name].[chunkhash:8].js`,
       chunkFilename: `js/[name].[chunkhash:8].js`,
     },
-
+    externals: {
+      // prettier-ignore
+      'react': 'React',
+      'react-dom': 'ReactDOM',
+    },
     plugins: [
       new HtmlWebpackPlugin({
         template: 'ejs-compiled-loader?1=1!templates/index.ejs',

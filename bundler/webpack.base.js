@@ -27,11 +27,6 @@ module.exports = function ({ isProd }) {
         '@': resolve('src'),
       },
     },
-    externals: {
-      // prettier-ignore
-      'react': 'React',
-      'react-dom': 'ReactDOM',
-    },
     module: {
       strictExportPresence: true,
       rules: [
